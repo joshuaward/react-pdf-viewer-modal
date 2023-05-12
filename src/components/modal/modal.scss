@@ -8,6 +8,8 @@
 	align-items: center;
 	justify-content: center;
 	background: rgba(0, 0, 0, 0.85);
+	overflow-x: hidden;
+    overflow-y: scroll;
 
 	&.is-open {
 		display: flex;
